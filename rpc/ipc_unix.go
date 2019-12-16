@@ -31,7 +31,7 @@ import (
 /*
 #include <sys/un.h>
 
-int max_socket_path_size() {
+int tan_max_socket_path_size() {
 struct sockaddr_un s;
 return sizeof(s.sun_path);
 }
@@ -40,7 +40,7 @@ import "C"
 
 // ipcListen will create a Unix socket on the given endpoint.
 func ipcListen(endpoint string) (net.Listener, error) {
-	if len(endpoint) > int(C.max_socket_path_size()) {
+	if len(endpoint) > int(C.tan_max_socket_path_size()) {
 		log.Warn(fmt.Sprintf("The ipc endpoint is longer than %d characters. ", C.max_socket_path_size()),
 			"endpoint", endpoint)
 	}
