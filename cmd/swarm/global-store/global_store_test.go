@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/rpc"
-	mockRPC "github.com/tangerine-network/go-tangerine/swarm/storage/mock/rpc"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/rpc"
+	mockRPC "github.com/portto/go-tangerine/swarm/storage/mock/rpc"
 )
 
 // TestHTTP_InMemory tests in-memory global store that exposes

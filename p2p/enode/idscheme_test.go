@@ -23,11 +23,11 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/p2p/enr"
+	"github.com/portto/go-tangerine/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/p2p/enr"
-	"github.com/tangerine-network/go-tangerine/rlp"
 )
 
 var (

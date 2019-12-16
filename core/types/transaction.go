@@ -23,10 +23,10 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 //go:generate gencodec -type txdata -field-override txdataMarshaling -out gen_tx_json.go

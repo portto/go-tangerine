@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/common"
+	"github.com/portto/go-tangerine/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

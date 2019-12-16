@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/cmd/internal/browser"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/cmd/internal/browser"
+	"github.com/portto/go-tangerine/params"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueURL = "https://github.com/tangerine-network/go-tangerine/issues/new"
+const issueURL = "https://github.com/portto/go-tangerine/issues/new"
 
 // reportBug reports a bug by opening a new URL to the go-ethereum GH issue
 // tracker and setting default values as the issue body.

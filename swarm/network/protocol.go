@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/protocols"
-	"github.com/tangerine-network/go-tangerine/rpc"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	"github.com/tangerine-network/go-tangerine/swarm/state"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/protocols"
+	"github.com/portto/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/state"
 )
 
 const (

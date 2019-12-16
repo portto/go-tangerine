@@ -22,13 +22,13 @@ import (
 	"os"
 	"strings"
 
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/internal/ethapi"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/signer/core"
+	"github.com/portto/go-tangerine/signer/rules/deps"
+	"github.com/portto/go-tangerine/signer/storage"
 	"github.com/robertkrimen/otto"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/internal/ethapi"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/signer/core"
-	"github.com/tangerine-network/go-tangerine/signer/rules/deps"
-	"github.com/tangerine-network/go-tangerine/signer/storage"
 )
 
 var (

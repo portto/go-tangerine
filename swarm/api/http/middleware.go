@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/pborman/uuid"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	"github.com/tangerine-network/go-tangerine/swarm/sctx"
-	"github.com/tangerine-network/go-tangerine/swarm/spancontext"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/swarm/api"
+	"github.com/portto/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/sctx"
+	"github.com/portto/go-tangerine/swarm/spancontext"
 )
 
 // Adapt chains h (main request handler) main handler to adapters (middleware handlers)

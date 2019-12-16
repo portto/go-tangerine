@@ -21,9 +21,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core/types"
-	typesDKG "github.com/tangerine-network/tangerine-consensus/core/types/dkg"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core/types"
+	typesDKG "github.com/portto/tangerine-consensus/core/types/dkg"
 )
 
 var dkgDelayRound uint64

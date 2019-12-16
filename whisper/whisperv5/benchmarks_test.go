@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

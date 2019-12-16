@@ -26,9 +26,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/portto/go-tangerine/swarm/shed"
+	"github.com/portto/go-tangerine/swarm/storage"
 	"github.com/syndtr/goleveldb/leveldb"
-	"github.com/tangerine-network/go-tangerine/swarm/shed"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
 )
 
 // Store holds fields and indexes (including their encoding functions)

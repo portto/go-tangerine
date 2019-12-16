@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/protocols"
-	"github.com/tangerine-network/go-tangerine/swarm/pot"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/protocols"
+	"github.com/portto/go-tangerine/swarm/pot"
 )
 
 func init() {

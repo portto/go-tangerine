@@ -41,17 +41,17 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	coreCommon "github.com/tangerine-network/tangerine-consensus/common"
-	coreTypes "github.com/tangerine-network/tangerine-consensus/core/types"
-	dkgTypes "github.com/tangerine-network/tangerine-consensus/core/types/dkg"
+	coreCommon "github.com/portto/tangerine-consensus/common"
+	coreTypes "github.com/portto/tangerine-consensus/core/types"
+	dkgTypes "github.com/portto/tangerine-consensus/core/types/dkg"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 var (

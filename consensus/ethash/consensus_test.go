@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/params"
 )
 
 type diffTest struct {

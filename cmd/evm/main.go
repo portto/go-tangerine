@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

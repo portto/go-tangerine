@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/rawdb"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/light"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/rawdb"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/light"
 )
 
 var testBankSecureTrieKey = secAddr(testBankAddress)

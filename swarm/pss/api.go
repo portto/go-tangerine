@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/rpc"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/swarm/log"
 )
 
 // Wrapper for receiving pss messages when using the pss API

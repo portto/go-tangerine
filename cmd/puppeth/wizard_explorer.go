@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

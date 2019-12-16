@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/swarm/shed"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/swarm/shed"
+	"github.com/portto/go-tangerine/swarm/storage"
 )
 
 // SubscribePush returns a channel that provides storage chunks with ordering from push syncing index.

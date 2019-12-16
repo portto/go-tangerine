@@ -24,10 +24,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/console"
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/console"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -43,7 +43,7 @@ var (
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/tangerine-network/go-tangerine/wiki/JavaScript-Console.`,
+See https://github.com/portto/go-tangerine/wiki/JavaScript-Console.`,
 	}
 
 	attachCommand = cli.Command{
@@ -56,7 +56,7 @@ See https://github.com/tangerine-network/go-tangerine/wiki/JavaScript-Console.`,
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/tangerine-network/go-tangerine/wiki/JavaScript-Console.
+See https://github.com/portto/go-tangerine/wiki/JavaScript-Console.
 This command allows to open a console on a running gtan node.`,
 	}
 
@@ -69,7 +69,7 @@ This command allows to open a console on a running gtan node.`,
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/tangerine-network/go-tangerine/wiki/JavaScript-Console`,
+JavaScript API. See https://github.com/portto/go-tangerine/wiki/JavaScript-Console`,
 	}
 )
 

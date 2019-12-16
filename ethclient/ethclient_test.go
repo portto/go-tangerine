@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	ethereum "github.com/tangerine-network/go-tangerine"
-	"github.com/tangerine-network/go-tangerine/common"
+	ethereum "github.com/portto/go-tangerine"
+	"github.com/portto/go-tangerine/common"
 )
 
 // Verify that Client implements the ethereum interfaces.

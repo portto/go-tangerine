@@ -25,11 +25,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/core/vm"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/log"
 	duktape "gopkg.in/olebedev/go-duktape.v3"
 )
 

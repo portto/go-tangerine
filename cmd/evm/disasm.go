@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/core/asm"
+	"github.com/portto/go-tangerine/core/asm"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

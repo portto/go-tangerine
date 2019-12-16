@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/pipes"
+	"github.com/portto/go-tangerine/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

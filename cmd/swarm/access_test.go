@@ -31,12 +31,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/crypto/ecies"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	swarmapi "github.com/tangerine-network/go-tangerine/swarm/api/client"
-	"github.com/tangerine-network/go-tangerine/swarm/testutil"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/crypto/ecies"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/swarm/api"
+	swarmapi "github.com/portto/go-tangerine/swarm/api/client"
+	"github.com/portto/go-tangerine/swarm/testutil"
 	"golang.org/x/crypto/sha3"
 )
 

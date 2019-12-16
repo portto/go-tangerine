@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/consensus/ethash"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/eth"
-	"github.com/tangerine-network/go-tangerine/internal/jsre"
-	"github.com/tangerine-network/go-tangerine/node"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/consensus/ethash"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/eth"
+	"github.com/portto/go-tangerine/internal/jsre"
+	"github.com/portto/go-tangerine/node"
 )
 
 const (

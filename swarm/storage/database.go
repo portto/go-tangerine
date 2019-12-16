@@ -20,10 +20,10 @@ package storage
 // no need for queueing/caching
 
 import (
+	"github.com/portto/go-tangerine/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/tangerine-network/go-tangerine/metrics"
 )
 
 const openFileLimit = 128

@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/event"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/event"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 // Msg defines the structure of a p2p message.

@@ -1,6 +1,6 @@
 #!/bin/bash -f
 
-cd vendor/github.com/tangerine-network/
+cd vendor/github.com/portto/
 
 sudo apt-get update
 

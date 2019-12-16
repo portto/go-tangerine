@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/accounts/keystore"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/accounts/keystore"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

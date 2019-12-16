@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/tangerine-network/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/common/math"
 )
 
 // Memory implements a simple memory model for the ethereum virtual machine.

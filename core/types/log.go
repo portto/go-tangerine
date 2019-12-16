@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

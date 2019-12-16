@@ -24,10 +24,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed/lookup"
+	"github.com/portto/go-tangerine/swarm/storage/feed/lookup"
 
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/storage"
 )
 
 type Handler struct {

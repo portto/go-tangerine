@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/common/math"
 )
 
 var _ = (*stTransactionMarshaling)(nil)

@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/ethdb"
 )
 
 func newTestLDB() (*ethdb.LDBDatabase, func()) {

@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/gizak/termui"
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

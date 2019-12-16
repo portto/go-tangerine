@@ -19,8 +19,8 @@ package api
 import (
 	"context"
 
-	"github.com/tangerine-network/go-tangerine/swarm/network"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/swarm/network"
+	"github.com/portto/go-tangerine/swarm/storage"
 )
 
 type Inspector struct {

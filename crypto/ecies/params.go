@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/tangerine-network/go-tangerine/crypto"
+	ethcrypto "github.com/portto/go-tangerine/crypto"
 )
 
 var (

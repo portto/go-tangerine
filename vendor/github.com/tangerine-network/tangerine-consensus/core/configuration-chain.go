@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core/crypto"
-	"github.com/tangerine-network/tangerine-consensus/core/db"
-	"github.com/tangerine-network/tangerine-consensus/core/types"
-	typesDKG "github.com/tangerine-network/tangerine-consensus/core/types/dkg"
-	"github.com/tangerine-network/tangerine-consensus/core/utils"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core/crypto"
+	"github.com/portto/tangerine-consensus/core/db"
+	"github.com/portto/tangerine-consensus/core/types"
+	typesDKG "github.com/portto/tangerine-consensus/core/types/dkg"
+	"github.com/portto/tangerine-consensus/core/utils"
 )
 
 // Errors for configuration chain..

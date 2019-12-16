@@ -25,10 +25,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/crypto"
 )
 
 var jsonEventTransfer = []byte(`{
@@ -356,7 +356,7 @@ func unpackTestEventData(dest interface{}, hexData string, jsonEvent []byte, ass
 
 /*
 Taken from
-https://github.com/tangerine-network/go-tangerine/pull/15568
+https://github.com/portto/go-tangerine/pull/15568
 */
 
 type testResult struct {

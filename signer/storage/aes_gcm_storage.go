@@ -26,7 +26,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 type storedCredential struct {

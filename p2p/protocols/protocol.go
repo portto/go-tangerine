@@ -39,12 +39,12 @@ import (
 	"time"
 
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/rlp"
-	"github.com/tangerine-network/go-tangerine/swarm/spancontext"
-	"github.com/tangerine-network/go-tangerine/swarm/tracing"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/swarm/spancontext"
+	"github.com/portto/go-tangerine/swarm/tracing"
 )
 
 // error codes used by this  protocol scheme

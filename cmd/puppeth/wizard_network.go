@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

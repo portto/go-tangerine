@@ -24,7 +24,7 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/tangerine-network/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/common/math"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

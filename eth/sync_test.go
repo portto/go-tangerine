@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/eth/downloader"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/eth/downloader"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/enode"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

@@ -27,12 +27,12 @@ import (
 	cli "gopkg.in/urfave/cli.v1"
 
 	"github.com/naoina/toml"
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/dashboard"
-	"github.com/tangerine-network/go-tangerine/dex"
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/params"
-	whisper "github.com/tangerine-network/go-tangerine/whisper/whisperv6"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/dashboard"
+	"github.com/portto/go-tangerine/dex"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/params"
+	whisper "github.com/portto/go-tangerine/whisper/whisperv6"
 )
 
 var (

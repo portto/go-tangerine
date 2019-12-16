@@ -30,9 +30,9 @@ import (
 	"time"
 
 	"github.com/pborman/uuid"
-	"github.com/tangerine-network/go-tangerine/accounts"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/accounts"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 const (

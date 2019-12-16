@@ -30,10 +30,10 @@ import (
 	"testing"
 
 	colorable "github.com/mattn/go-colorable"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
-	"github.com/tangerine-network/go-tangerine/swarm/testutil"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/swarm/api"
+	"github.com/portto/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/swarm/testutil"
 )
 
 var (

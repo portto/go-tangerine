@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/core/asm"
+	"github.com/portto/go-tangerine/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

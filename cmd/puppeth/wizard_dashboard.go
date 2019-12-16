@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

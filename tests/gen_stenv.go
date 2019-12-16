@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/math"
 )
 
 var _ = (*stEnvMarshaling)(nil)

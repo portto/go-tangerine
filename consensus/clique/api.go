@@ -17,10 +17,10 @@
 package clique
 
 import (
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/consensus"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/consensus"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

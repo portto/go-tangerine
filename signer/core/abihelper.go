@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/accounts/abi"
-	"github.com/tangerine-network/go-tangerine/common"
+	"github.com/portto/go-tangerine/accounts/abi"
+	"github.com/portto/go-tangerine/common"
 
 	"bytes"
 	"os"

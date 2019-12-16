@@ -18,14 +18,14 @@
 package db
 
 import (
-	coreCommon "github.com/tangerine-network/tangerine-consensus/common"
-	coreDKG "github.com/tangerine-network/tangerine-consensus/core/crypto/dkg"
-	coreDb "github.com/tangerine-network/tangerine-consensus/core/db"
-	coreTypes "github.com/tangerine-network/tangerine-consensus/core/types"
+	coreCommon "github.com/portto/tangerine-consensus/common"
+	coreDKG "github.com/portto/tangerine-consensus/core/crypto/dkg"
+	coreDb "github.com/portto/tangerine-consensus/core/db"
+	coreTypes "github.com/portto/tangerine-consensus/core/types"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/rawdb"
-	"github.com/tangerine-network/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/rawdb"
+	"github.com/portto/go-tangerine/ethdb"
 )
 
 // DB implement dexon-consensus BlockDatabase interface.

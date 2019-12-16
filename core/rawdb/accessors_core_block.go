@@ -3,11 +3,11 @@ package rawdb
 import (
 	"bytes"
 
-	coreTypes "github.com/tangerine-network/tangerine-consensus/core/types"
+	coreTypes "github.com/portto/tangerine-consensus/core/types"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 func ReadCoreBlockRLP(db DatabaseReader, hash common.Hash) rlp.RawValue {

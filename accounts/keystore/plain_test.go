@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

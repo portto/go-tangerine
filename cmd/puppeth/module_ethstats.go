@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

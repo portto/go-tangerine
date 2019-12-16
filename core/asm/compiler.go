@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/core/vm"
 )
 
 // Compiler contains information about the parsed source

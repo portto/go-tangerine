@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/hex"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core/crypto"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core/crypto"
 )
 
 // NodeID is the ID type for nodes.

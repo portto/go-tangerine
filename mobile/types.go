@@ -23,10 +23,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/rlp"
-	whisper "github.com/tangerine-network/go-tangerine/whisper/whisperv6"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/rlp"
+	whisper "github.com/portto/go-tangerine/whisper/whisperv6"
 )
 
 // A Nonce is a 64-bit hash which proves (combined with the mix-hash) that

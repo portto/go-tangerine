@@ -24,9 +24,9 @@ import (
 	"strings"
 	"testing"
 
-	coreCommon "github.com/tangerine-network/tangerine-consensus/common"
-	coreDb "github.com/tangerine-network/tangerine-consensus/core/db"
-	coreTypes "github.com/tangerine-network/tangerine-consensus/core/types"
+	coreCommon "github.com/portto/tangerine-consensus/common"
+	coreDb "github.com/portto/tangerine-consensus/core/db"
+	coreTypes "github.com/portto/tangerine-consensus/core/types"
 )
 
 type byHash []*coreTypes.Vote

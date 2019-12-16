@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/crypto"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	swarm "github.com/tangerine-network/go-tangerine/swarm/api/client"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed"
+	"github.com/portto/go-tangerine/cmd/utils"
+	swarm "github.com/portto/go-tangerine/swarm/api/client"
+	"github.com/portto/go-tangerine/swarm/storage/feed"
 	"gopkg.in/urfave/cli.v1"
 )
 

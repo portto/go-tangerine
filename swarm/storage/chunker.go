@@ -26,10 +26,10 @@ import (
 
 	opentracing "github.com/opentracing/opentracing-go"
 	olog "github.com/opentracing/opentracing-go/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	ch "github.com/tangerine-network/go-tangerine/swarm/chunk"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	"github.com/tangerine-network/go-tangerine/swarm/spancontext"
+	"github.com/portto/go-tangerine/metrics"
+	ch "github.com/portto/go-tangerine/swarm/chunk"
+	"github.com/portto/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/spancontext"
 )
 
 /*

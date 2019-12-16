@@ -6,12 +6,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/consensus/ethash"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/eth/downloader"
-	"github.com/tangerine-network/go-tangerine/eth/gasprice"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/consensus/ethash"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/eth/downloader"
+	"github.com/portto/go-tangerine/eth/gasprice"
 )
 
 var _ = (*configMarshaling)(nil)

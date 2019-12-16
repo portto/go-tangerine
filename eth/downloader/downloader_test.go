@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	ethereum "github.com/tangerine-network/go-tangerine"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/event"
-	"github.com/tangerine-network/go-tangerine/trie"
+	ethereum "github.com/portto/go-tangerine"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/event"
+	"github.com/portto/go-tangerine/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

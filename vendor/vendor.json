@@ -642,13 +642,13 @@
 		},
 		{
 			"checksumSHA1": "33ilTxSgPt8u9bq1inlxp4BHU9I=",
-			"path": "github.com/tangerine-network/bls/ffi/go/bls",
+			"path": "github.com/portto/bls/ffi/go/bls",
 			"revision": "5e8e1cd9adf37e993a5bea2ad116e107652f0301",
 			"revisionTime": "2019-04-12T05:24:20Z"
 		},
 		{
 			"checksumSHA1": "NGziGsUc5J8yatLzEkyq+dKHCA8=",
-			"path": "github.com/tangerine-network/tangerine-consensus/common",
+			"path": "github.com/portto/tangerine-consensus/common",
 			"revision": "1eecef2512d9c8a2bd3c0ef4af7a7b830fa30a0f",
 			"revisionTime": "2019-09-16T06:50:28Z",
 			"version": "master",
@@ -656,7 +656,7 @@
 		},
 		{
 			"checksumSHA1": "q95iobP0KfVuwR8XMlSrdWA6C78=",
-			"path": "github.com/tangerine-network/tangerine-consensus/core",
+			"path": "github.com/portto/tangerine-consensus/core",
 			"revision": "1eecef2512d9c8a2bd3c0ef4af7a7b830fa30a0f",
 			"revisionTime": "2019-09-16T06:50:28Z",
 			"version": "master",
@@ -664,7 +664,7 @@
 		},
 		{
 			"checksumSHA1": "eo/teMG8zMinYdOWnWiaQwteOoA=",
-			"path": "github.com/tangerine-network/tangerine-consensus/core/blockdb",
+			"path": "github.com/portto/tangerine-consensus/core/blockdb",
 			"revision": "56e872f84131348adbc0861afb3554bba4a8e5db",
 			"revisionTime": "2018-12-05T06:29:54Z",
 			"version": "master",
@@ -672,7 +672,7 @@
 		},
 		{
 			"checksumSHA1": "VzMWZGwspZ2Gt5JXovACVGYZniY=",
-			"path": "github.com/tangerine-network/tangerine-consensus/core/crypto",
+			"path": "github.com/portto/tangerine-consensus/core/crypto",
 			"revision": "1eecef2512d9c8a2bd3c0ef4af7a7b830fa30a0f",
 			"revisionTime": "2019-09-16T06:50:28Z",
 			"version": "master",
@@ -680,7 +680,7 @@
 		},
 		{
 			"checksumSHA1": "KBdSQE+vXiz95jvWj22heyE1hCQ=",
-			"path": "github.com/tangerine-network/tangerine-consensus/core/crypto/dkg",
+			"path": "github.com/portto/tangerine-consensus/core/crypto/dkg",
 			"revision": "1eecef2512d9c8a2bd3c0ef4af7a7b830fa30a0f",
 			"revisionTime": "2019-09-16T06:50:28Z",
 			"version": "master",
@@ -688,7 +688,7 @@
 		},
 		{
 			"checksumSHA1": "VWknl5zd1YBzJ2LNeto4tdWBZLU=",
-			"path": "github.com/tangerine-network/tangerine-consensus/core/crypto/ecdsa",
+			"path": "github.com/portto/tangerine-consensus/core/crypto/ecdsa",
 			"revision": "1eecef2512d9c8a2bd3c0ef4af7a7b830fa30a0f",
 			"revisionTime": "2019-09-16T06:50:28Z",
 			"version": "master",
@@ -696,7 +696,7 @@
 		},
 		{
 			"checksumSHA1": "Hr5l1o66PisU/ZeVVem/PjWiwRY=",
-			"path": "github.com/tangerine-network/tangerine-consensus/core/db",
+			"path": "github.com/portto/tangerine-consensus/core/db",
 			"revision": "1eecef2512d9c8a2bd3c0ef4af7a7b830fa30a0f",
 			"revisionTime": "2019-09-16T06:50:28Z",
 			"version": "master",
@@ -704,7 +704,7 @@
 		},
 		{
 			"checksumSHA1": "KlnATyRvXte2KrNUmokr9ovBZBY=",
-			"path": "github.com/tangerine-network/tangerine-consensus/core/syncer",
+			"path": "github.com/portto/tangerine-consensus/core/syncer",
 			"revision": "1eecef2512d9c8a2bd3c0ef4af7a7b830fa30a0f",
 			"revisionTime": "2019-09-16T06:50:28Z",
 			"version": "master",
@@ -712,7 +712,7 @@
 		},
 		{
 			"checksumSHA1": "iuy80meozpRYuctavnpxtXiqs8c=",
-			"path": "github.com/tangerine-network/tangerine-consensus/core/types",
+			"path": "github.com/portto/tangerine-consensus/core/types",
 			"revision": "1eecef2512d9c8a2bd3c0ef4af7a7b830fa30a0f",
 			"revisionTime": "2019-09-16T06:50:28Z",
 			"version": "master",
@@ -720,7 +720,7 @@
 		},
 		{
 			"checksumSHA1": "M6CxB+cb9WpdyphA7Q7WxO2q7LE=",
-			"path": "github.com/tangerine-network/tangerine-consensus/core/types/dkg",
+			"path": "github.com/portto/tangerine-consensus/core/types/dkg",
 			"revision": "1eecef2512d9c8a2bd3c0ef4af7a7b830fa30a0f",
 			"revisionTime": "2019-09-16T06:50:28Z",
 			"version": "master",
@@ -728,7 +728,7 @@
 		},
 		{
 			"checksumSHA1": "O6B/sUzXOMSVYasxf3AnuTE1qG4=",
-			"path": "github.com/tangerine-network/tangerine-consensus/core/utils",
+			"path": "github.com/portto/tangerine-consensus/core/utils",
 			"revision": "1eecef2512d9c8a2bd3c0ef4af7a7b830fa30a0f",
 			"revisionTime": "2019-09-16T06:50:28Z",
 			"version": "master",
@@ -1640,5 +1640,5 @@
 			"revisionTime": "2017-08-11T01:42:03Z"
 		}
 	],
-	"rootPath": "github.com/tangerine-network/go-tangerine"
+	"rootPath": "github.com/portto/go-tangerine"
 }

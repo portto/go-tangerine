@@ -29,8 +29,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/cmd/zoo/client"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/cmd/zoo/client"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 var config *MonkeyConfig

@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tangerine-network/go-tangerine/accounts"
-	"github.com/tangerine-network/go-tangerine/common"
+	"github.com/portto/go-tangerine/accounts"
+	"github.com/portto/go-tangerine/common"
 )
 
 var (

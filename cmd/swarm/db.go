@@ -22,10 +22,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

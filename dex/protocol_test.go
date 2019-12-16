@@ -24,19 +24,19 @@ import (
 	"testing"
 	"time"
 
-	coreCommon "github.com/tangerine-network/tangerine-consensus/common"
-	coreCrypto "github.com/tangerine-network/tangerine-consensus/core/crypto"
-	"github.com/tangerine-network/tangerine-consensus/core/crypto/dkg"
-	coreTypes "github.com/tangerine-network/tangerine-consensus/core/types"
-	dkgTypes "github.com/tangerine-network/tangerine-consensus/core/types/dkg"
+	coreCommon "github.com/portto/tangerine-consensus/common"
+	coreCrypto "github.com/portto/tangerine-consensus/core/crypto"
+	"github.com/portto/tangerine-consensus/core/crypto/dkg"
+	coreTypes "github.com/portto/tangerine-consensus/core/types"
+	dkgTypes "github.com/portto/tangerine-consensus/core/types/dkg"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/dex/downloader"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/dex/downloader"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 func init() {

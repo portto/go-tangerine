@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/tangerine-network/go-tangerine"
-	"github.com/tangerine-network/go-tangerine/accounts/abi"
-	"github.com/tangerine-network/go-tangerine/accounts/abi/bind"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/event"
+	ethereum "github.com/portto/go-tangerine"
+	"github.com/portto/go-tangerine/accounts/abi"
+	"github.com/portto/go-tangerine/accounts/abi/bind"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/event"
 )
 
 // PublicResolverABI is the input ABI used to generate the binding from.

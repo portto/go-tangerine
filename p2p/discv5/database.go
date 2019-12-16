@@ -28,15 +28,15 @@ import (
 	"sync"
 	"time"
 
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 	"github.com/syndtr/goleveldb/leveldb/util"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/rlp"
 )
 
 var (

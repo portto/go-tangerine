@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common/bitutil"
-	"github.com/tangerine-network/go-tangerine/light"
+	"github.com/portto/go-tangerine/common/bitutil"
+	"github.com/portto/go-tangerine/light"
 )
 
 const (

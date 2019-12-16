@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/adapters"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	"github.com/tangerine-network/go-tangerine/swarm/network"
-	"github.com/tangerine-network/go-tangerine/swarm/network/simulation"
-	"github.com/tangerine-network/go-tangerine/swarm/state"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/mock"
-	"github.com/tangerine-network/go-tangerine/swarm/testutil"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/simulations/adapters"
+	"github.com/portto/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/network"
+	"github.com/portto/go-tangerine/swarm/network/simulation"
+	"github.com/portto/go-tangerine/swarm/state"
+	"github.com/portto/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/swarm/storage/mock"
+	"github.com/portto/go-tangerine/swarm/testutil"
 )
 
 const dataChunkCount = 200

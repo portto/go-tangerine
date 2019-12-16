@@ -22,13 +22,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/core/vm"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/params"
 )
 
 // testerAccountPool is a pool to maintain currently active tester accounts,
@@ -363,7 +363,7 @@ func TestClique(t *testing.T) {
 			failure: errRecentlySigned,
 		}, {
 			// Recent signatures should not reset on checkpoint blocks imported in a new
-			// batch (https://github.com/tangerine-network/go-tangerine/issues/17593). Whilst this
+			// batch (https://github.com/portto/go-tangerine/issues/17593). Whilst this
 			// seems overly specific and weird, it was a Rinkeby consensus split.
 			epoch:   3,
 			signers: []string{"A", "B", "C"},

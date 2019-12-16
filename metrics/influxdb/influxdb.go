@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/influxdata/influxdb/client"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
 )
 
 type reporter struct {

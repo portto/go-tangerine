@@ -23,15 +23,15 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	swarm "github.com/tangerine-network/go-tangerine/swarm/api/client"
-	swarmhttp "github.com/tangerine-network/go-tangerine/swarm/api/http"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed/lookup"
-	"github.com/tangerine-network/go-tangerine/swarm/testutil"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/swarm/api"
+	swarm "github.com/portto/go-tangerine/swarm/api/client"
+	swarmhttp "github.com/portto/go-tangerine/swarm/api/http"
+	"github.com/portto/go-tangerine/swarm/storage/feed"
+	"github.com/portto/go-tangerine/swarm/storage/feed/lookup"
+	"github.com/portto/go-tangerine/swarm/testutil"
 )
 
 func TestCLIFeedUpdate(t *testing.T) {

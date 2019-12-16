@@ -19,7 +19,7 @@ package protocols
 import (
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/metrics"
 )
 
 // define some metrics

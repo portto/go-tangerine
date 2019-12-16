@@ -24,9 +24,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	swarm "github.com/tangerine-network/go-tangerine/swarm/api/client"
-	swarmhttp "github.com/tangerine-network/go-tangerine/swarm/api/http"
+	"github.com/portto/go-tangerine/swarm/api"
+	swarm "github.com/portto/go-tangerine/swarm/api/client"
+	swarmhttp "github.com/portto/go-tangerine/swarm/api/http"
 )
 
 // TestManifestChange tests manifest add, update and remove

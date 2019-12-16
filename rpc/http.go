@@ -31,8 +31,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/portto/go-tangerine/log"
 	"github.com/rs/cors"
-	"github.com/tangerine-network/go-tangerine/log"
 )
 
 const (

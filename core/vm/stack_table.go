@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

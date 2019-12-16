@@ -8,18 +8,18 @@ import (
 	"time"
 
 	"github.com/hashicorp/golang-lru/simplelru"
-	coreCommon "github.com/tangerine-network/tangerine-consensus/common"
-	dexCore "github.com/tangerine-network/tangerine-consensus/core"
-	coreCrypto "github.com/tangerine-network/tangerine-consensus/core/crypto"
-	coreEcdsa "github.com/tangerine-network/tangerine-consensus/core/crypto/ecdsa"
-	coreTypes "github.com/tangerine-network/tangerine-consensus/core/types"
-	dkgTypes "github.com/tangerine-network/tangerine-consensus/core/types/dkg"
-	coreUtils "github.com/tangerine-network/tangerine-consensus/core/utils"
+	coreCommon "github.com/portto/tangerine-consensus/common"
+	dexCore "github.com/portto/tangerine-consensus/core"
+	coreCrypto "github.com/portto/tangerine-consensus/core/crypto"
+	coreEcdsa "github.com/portto/tangerine-consensus/core/crypto/ecdsa"
+	coreTypes "github.com/portto/tangerine-consensus/core/types"
+	dkgTypes "github.com/portto/tangerine-consensus/core/types/dkg"
+	coreUtils "github.com/portto/tangerine-consensus/core/utils"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/state"
-	"github.com/tangerine-network/go-tangerine/core/vm"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/state"
+	"github.com/portto/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/log"
 )
 
 const dkgCacheSize = 5

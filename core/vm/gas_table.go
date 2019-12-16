@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

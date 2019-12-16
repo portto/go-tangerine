@@ -20,9 +20,9 @@ package types
 import (
 	"fmt"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core/crypto"
-	cryptoDKG "github.com/tangerine-network/tangerine-consensus/core/crypto/dkg"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core/crypto"
+	cryptoDKG "github.com/portto/tangerine-consensus/core/crypto/dkg"
 )
 
 // VoteType is the type of vote.

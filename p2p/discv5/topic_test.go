@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/mclock"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/tangerine-network/go-tangerine/issues"
-!define UPDATEURL "https://github.com/tangerine-network/go-tangerine/releases"
-!define ABOUTURL "https://github.com/tangerine-network/go-tangerine#ethereum-go"
+!define HELPURL "https://github.com/portto/go-tangerine/issues"
+!define UPDATEURL "https://github.com/portto/go-tangerine/releases"
+!define ABOUTURL "https://github.com/portto/go-tangerine#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

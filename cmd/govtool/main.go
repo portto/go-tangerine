@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/core/vm"
-	"github.com/tangerine-network/go-tangerine/rlp"
-	coreTypes "github.com/tangerine-network/tangerine-consensus/core/types"
-	dkgTypes "github.com/tangerine-network/tangerine-consensus/core/types/dkg"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/rlp"
+	coreTypes "github.com/portto/tangerine-consensus/core/types"
+	dkgTypes "github.com/portto/tangerine-consensus/core/types/dkg"
 	"gopkg.in/urfave/cli.v1"
 )
 

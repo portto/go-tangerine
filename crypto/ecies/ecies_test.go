@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 var dumpEnc bool

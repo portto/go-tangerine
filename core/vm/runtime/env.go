@@ -17,9 +17,9 @@
 package runtime
 
 import (
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

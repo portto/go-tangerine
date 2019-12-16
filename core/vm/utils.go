@@ -4,11 +4,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/state"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/log"
-	dexCore "github.com/tangerine-network/tangerine-consensus/core"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/state"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/log"
+	dexCore "github.com/portto/tangerine-consensus/core"
 )
 
 type GovUtilInterface interface {

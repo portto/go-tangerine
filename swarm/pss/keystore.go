@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	whisper "github.com/tangerine-network/go-tangerine/whisper/whisperv6"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/swarm/log"
+	whisper "github.com/portto/go-tangerine/whisper/whisperv6"
 )
 
 type KeyStore struct {

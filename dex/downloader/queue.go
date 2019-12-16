@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/prque"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/prque"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
 )
 
 var (

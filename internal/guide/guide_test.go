@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/accounts/keystore"
-	"github.com/tangerine-network/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/accounts/keystore"
+	"github.com/portto/go-tangerine/core/types"
 )
 
 // Tests that the account management snippets work correctly.

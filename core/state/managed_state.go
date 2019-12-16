@@ -19,7 +19,7 @@ package state
 import (
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/common"
+	"github.com/portto/go-tangerine/common"
 )
 
 type account struct {

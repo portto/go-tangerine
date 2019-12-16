@@ -22,8 +22,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/swarm/storage"
 )
 
 //matches hex swarm hashes

@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/pborman/uuid"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/swarm/testutil"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/swarm/testutil"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

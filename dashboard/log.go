@@ -27,8 +27,8 @@ import (
 	"time"
 
 	"github.com/mohae/deepcopy"
+	"github.com/portto/go-tangerine/log"
 	"github.com/rjeczalik/notify"
-	"github.com/tangerine-network/go-tangerine/log"
 )
 
 var emptyChunk = json.RawMessage("[]")

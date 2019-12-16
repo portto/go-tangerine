@@ -27,22 +27,22 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/tangerine-network/go-tangerine/accounts/abi"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/state"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/params"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/accounts/abi"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/state"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/params"
+	"github.com/portto/go-tangerine/rlp"
 
-	coreCommon "github.com/tangerine-network/tangerine-consensus/common"
-	dexCore "github.com/tangerine-network/tangerine-consensus/core"
-	coreCrypto "github.com/tangerine-network/tangerine-consensus/core/crypto"
-	coreUtils "github.com/tangerine-network/tangerine-consensus/core/utils"
+	coreCommon "github.com/portto/tangerine-consensus/common"
+	dexCore "github.com/portto/tangerine-consensus/core"
+	coreCrypto "github.com/portto/tangerine-consensus/core/crypto"
+	coreUtils "github.com/portto/tangerine-consensus/core/utils"
 
-	"github.com/tangerine-network/tangerine-consensus/core/crypto/ecdsa"
-	coreTypes "github.com/tangerine-network/tangerine-consensus/core/types"
-	dkgTypes "github.com/tangerine-network/tangerine-consensus/core/types/dkg"
+	"github.com/portto/tangerine-consensus/core/crypto/ecdsa"
+	coreTypes "github.com/portto/tangerine-consensus/core/types"
+	dkgTypes "github.com/portto/tangerine-consensus/core/types/dkg"
 )
 
 type Bytes32 [32]byte

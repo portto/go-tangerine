@@ -27,9 +27,9 @@ import (
 	"github.com/fjl/memsize/memsizeui"
 	colorable "github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/metrics/exp"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/metrics/exp"
 	"gopkg.in/urfave/cli.v1"
 )
 

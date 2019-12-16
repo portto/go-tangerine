@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/accounts/abi/bind"
-	"github.com/tangerine-network/go-tangerine/common/compiler"
+	"github.com/portto/go-tangerine/accounts/abi/bind"
+	"github.com/portto/go-tangerine/common/compiler"
 )
 
 var (

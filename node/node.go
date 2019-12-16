@@ -26,14 +26,14 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/portto/go-tangerine/accounts"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/event"
+	"github.com/portto/go-tangerine/internal/debug"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/rpc"
 	"github.com/prometheus/prometheus/util/flock"
-	"github.com/tangerine-network/go-tangerine/accounts"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/event"
-	"github.com/tangerine-network/go-tangerine/internal/debug"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/rpc"
 )
 
 // Node is a container on which services can be registered.

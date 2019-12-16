@@ -30,9 +30,9 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/swarm/api"
+	"github.com/portto/go-tangerine/swarm/log"
 )
 
 var (

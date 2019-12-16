@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/accounts"
-	"github.com/tangerine-network/go-tangerine/accounts/keystore"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/eth"
-	"github.com/tangerine-network/go-tangerine/eth/downloader"
-	"github.com/tangerine-network/go-tangerine/ethclient"
-	"github.com/tangerine-network/go-tangerine/ethstats"
-	"github.com/tangerine-network/go-tangerine/les"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/discv5"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/nat"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/accounts"
+	"github.com/portto/go-tangerine/accounts/keystore"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/eth"
+	"github.com/portto/go-tangerine/eth/downloader"
+	"github.com/portto/go-tangerine/ethclient"
+	"github.com/portto/go-tangerine/ethstats"
+	"github.com/portto/go-tangerine/les"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/discv5"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/nat"
+	"github.com/portto/go-tangerine/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -449,7 +449,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/tangerine-network/go-tangerine/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/portto/go-tangerine/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

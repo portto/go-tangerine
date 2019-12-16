@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core/types"
-	typesDKG "github.com/tangerine-network/tangerine-consensus/core/types/dkg"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core/types"
+	typesDKG "github.com/portto/tangerine-consensus/core/types/dkg"
 )
 
 // ErrUnmatchedBlockHeightWithConfig is for invalid parameters for NewRoundEvent.

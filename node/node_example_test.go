@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core/crypto/dkg"
-	"github.com/tangerine-network/tangerine-consensus/core/types"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core/crypto/dkg"
+	"github.com/portto/tangerine-consensus/core/types"
 )
 
 var (

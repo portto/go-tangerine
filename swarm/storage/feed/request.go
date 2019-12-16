@@ -21,10 +21,10 @@ import (
 	"encoding/json"
 	"hash"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed/lookup"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/swarm/storage/feed/lookup"
 )
 
 // Request represents a request to sign or signed feed update message

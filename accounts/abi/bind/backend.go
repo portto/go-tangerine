@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	ethereum "github.com/tangerine-network/go-tangerine"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
+	ethereum "github.com/portto/go-tangerine"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
 )
 
 var (

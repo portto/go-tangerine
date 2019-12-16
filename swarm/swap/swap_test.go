@@ -26,11 +26,11 @@ import (
 	"time"
 
 	colorable "github.com/mattn/go-colorable"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/protocols"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/adapters"
-	"github.com/tangerine-network/go-tangerine/swarm/state"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/protocols"
+	"github.com/portto/go-tangerine/p2p/simulations/adapters"
+	"github.com/portto/go-tangerine/swarm/state"
 )
 
 var (

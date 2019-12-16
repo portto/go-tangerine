@@ -29,10 +29,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/log"
-	swarm "github.com/tangerine-network/go-tangerine/swarm/api/client"
+	"github.com/portto/go-tangerine/log"
+	swarm "github.com/portto/go-tangerine/swarm/api/client"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

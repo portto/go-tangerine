@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 // Entry is implemented by known node record entry types.

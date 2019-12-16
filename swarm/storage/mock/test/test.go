@@ -25,9 +25,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/mock"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/swarm/storage/mock"
 )
 
 // MockStore creates NodeStore instances from provided GlobalStorer,

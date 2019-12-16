@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/tangerine-network/go-tangerine/swarm/storage/encryption"
+	"github.com/portto/go-tangerine/swarm/storage/encryption"
 	"golang.org/x/crypto/sha3"
 )
 

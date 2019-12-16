@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	"github.com/tangerine-network/go-tangerine/swarm/pot"
-	sv "github.com/tangerine-network/go-tangerine/swarm/version"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/pot"
+	sv "github.com/portto/go-tangerine/swarm/version"
 )
 
 /*

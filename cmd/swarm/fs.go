@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/rpc"
-	"github.com/tangerine-network/go-tangerine/swarm/fuse"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/swarm/fuse"
 	"gopkg.in/urfave/cli.v1"
 )
 

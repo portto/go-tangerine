@@ -1,3 +1,3 @@
 #!/bin/sh
 
-govendor fetch github.com/tangerine-network/tangerine-consensus/...@master
+govendor fetch github.com/portto/tangerine-consensus/...@master

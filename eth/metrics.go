@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/p2p"
 )
 
 var (

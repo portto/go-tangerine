@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/p2p/simulations"
 )
 
 // Package defaults.

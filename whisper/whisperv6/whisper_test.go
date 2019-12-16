@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
+	"github.com/portto/go-tangerine/common"
 	"golang.org/x/crypto/pbkdf2"
 )
 

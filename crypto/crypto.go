@@ -28,9 +28,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

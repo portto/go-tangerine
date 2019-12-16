@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.

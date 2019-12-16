@@ -24,15 +24,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/prque"
-	"github.com/tangerine-network/go-tangerine/core/state"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/core/vm"
-	"github.com/tangerine-network/go-tangerine/event"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/prque"
+	"github.com/portto/go-tangerine/core/state"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/event"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/params"
 )
 
 const (

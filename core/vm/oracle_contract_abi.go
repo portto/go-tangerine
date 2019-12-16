@@ -18,7 +18,7 @@
 package vm
 
 // The governance ABI is generated from:
-// https://github.com/tangerine-network/governance-abi
+// https://github.com/portto/governance-abi
 
 const GovernanceABIJSON = `
 [

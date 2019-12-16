@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

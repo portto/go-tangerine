@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/common/bitutil"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/common/bitutil"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/swarm/storage"
 )
 
 // TopicLength establishes the max length of a topic string

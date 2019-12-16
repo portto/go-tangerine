@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common/mclock"
-	"github.com/tangerine-network/go-tangerine/common/prque"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common/mclock"
+	"github.com/portto/go-tangerine/common/prque"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 // freeClientPool implements a client database that limits the connection time

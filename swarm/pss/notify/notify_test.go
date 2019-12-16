@@ -9,17 +9,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/adapters"
-	"github.com/tangerine-network/go-tangerine/swarm/network"
-	"github.com/tangerine-network/go-tangerine/swarm/pss"
-	"github.com/tangerine-network/go-tangerine/swarm/state"
-	whisper "github.com/tangerine-network/go-tangerine/whisper/whisperv6"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/simulations"
+	"github.com/portto/go-tangerine/p2p/simulations/adapters"
+	"github.com/portto/go-tangerine/swarm/network"
+	"github.com/portto/go-tangerine/swarm/pss"
+	"github.com/portto/go-tangerine/swarm/state"
+	whisper "github.com/portto/go-tangerine/whisper/whisperv6"
 )
 
 var (

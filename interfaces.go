@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

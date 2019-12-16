@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/p2p/enr"
-	"github.com/tangerine-network/go-tangerine/p2p/netutil"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/p2p/enr"
+	"github.com/portto/go-tangerine/p2p/netutil"
 )
 
 const (

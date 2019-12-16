@@ -24,8 +24,8 @@ import (
 	"sync"
 
 	"github.com/olekukonko/tablewriter"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/log"
 )
 
 // networkStats verifies the status of network components and generates a protip

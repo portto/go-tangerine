@@ -3,9 +3,9 @@ package rawdb
 import (
 	"bytes"
 
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/rlp"
-	coreDb "github.com/tangerine-network/tangerine-consensus/core/db"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/rlp"
+	coreDb "github.com/portto/tangerine-consensus/core/db"
 )
 
 func ReadCoreDKGProtocolRLP(db DatabaseReader) rlp.RawValue {

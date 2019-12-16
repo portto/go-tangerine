@@ -18,7 +18,7 @@
 package crypto
 
 import (
-	"github.com/tangerine-network/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/common"
 )
 
 // Signature is the basic signature type in DEXON.

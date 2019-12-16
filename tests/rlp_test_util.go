@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

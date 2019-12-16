@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/eth/downloader"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/eth/downloader"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 func init() {

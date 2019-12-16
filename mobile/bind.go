@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/accounts/abi"
-	"github.com/tangerine-network/go-tangerine/accounts/abi/bind"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/accounts/abi"
+	"github.com/portto/go-tangerine/accounts/abi/bind"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
 )
 
 // Signer is an interaface defining the callback when a contract requires a

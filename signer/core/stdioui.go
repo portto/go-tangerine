@@ -21,9 +21,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/internal/ethapi"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/internal/ethapi"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/rpc"
 )
 
 type StdIOUI struct {

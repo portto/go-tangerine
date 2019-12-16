@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

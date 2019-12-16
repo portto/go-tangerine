@@ -26,9 +26,9 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/internal/jsre/deps"
 )
 
 var (

@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

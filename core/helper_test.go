@@ -19,9 +19,9 @@ package core
 import (
 	"container/list"
 
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/event"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/event"
 )
 
 // Implement our EthTest Manager

@@ -17,9 +17,9 @@
 package simulation
 
 import (
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/adapters"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/simulations/adapters"
 )
 
 // Service returns a single Service by name on a particular node

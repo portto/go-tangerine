@@ -21,9 +21,9 @@ import (
 	"sync"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/trie"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/trie"
 )
 
 // Trie cache generation limit after which to evict trie nodes from memory.

@@ -23,15 +23,15 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/consensus/ethash"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/core/rawdb"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/event"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/consensus/ethash"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/core/rawdb"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/event"
+	"github.com/portto/go-tangerine/params"
 )
 
 func makeReceipt(addr common.Address) *types.Receipt {

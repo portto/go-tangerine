@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/log"
 )
 
 type Filter struct {

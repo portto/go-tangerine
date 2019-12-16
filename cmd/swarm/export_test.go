@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/swarm"
-	"github.com/tangerine-network/go-tangerine/swarm/testutil"
+	"github.com/portto/go-tangerine/swarm"
+	"github.com/portto/go-tangerine/swarm/testutil"
 )
 
 // TestCLISwarmExportImport perform the following test:

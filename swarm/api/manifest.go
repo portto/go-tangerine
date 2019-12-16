@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed"
+	"github.com/portto/go-tangerine/swarm/storage/feed"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/storage"
 )
 
 const (

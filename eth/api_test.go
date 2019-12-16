@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/state"
-	"github.com/tangerine-network/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/state"
+	"github.com/portto/go-tangerine/ethdb"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

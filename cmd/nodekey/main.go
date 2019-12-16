@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/crypto"
 
 	"gopkg.in/urfave/cli.v1"
 )

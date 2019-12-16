@@ -35,13 +35,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/swarm/api"
+	"github.com/portto/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/swarm/storage/feed"
 	"github.com/rs/cors"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed"
 )
 
 var (

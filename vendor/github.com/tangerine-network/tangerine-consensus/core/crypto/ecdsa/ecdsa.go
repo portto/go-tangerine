@@ -20,10 +20,10 @@ package ecdsa
 import (
 	"crypto/ecdsa"
 
-	dexCrypto "github.com/tangerine-network/go-tangerine/crypto"
+	dexCrypto "github.com/portto/go-tangerine/crypto"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core/crypto"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core/crypto"
 )
 
 const cryptoType = "ecdsa"

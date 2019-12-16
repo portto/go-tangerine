@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	math2 "github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/consensus/ethash"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	math2 "github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/consensus/ethash"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the

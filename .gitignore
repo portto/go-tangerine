@@ -57,5 +57,5 @@ test/*.log
 dex/transactions.rlp
 
 # consensus
-vendor/github.com/tangerine-network/mcl/lib/*.dylib
-vendor/github.com/tangerine-network/bls/lib/*.dylib
+vendor/github.com/portto/mcl/lib/*.dylib
+vendor/github.com/portto/bls/lib/*.dylib

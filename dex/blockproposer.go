@@ -8,16 +8,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	dexCore "github.com/tangerine-network/tangerine-consensus/core"
-	coreEcdsa "github.com/tangerine-network/tangerine-consensus/core/crypto/ecdsa"
-	"github.com/tangerine-network/tangerine-consensus/core/syncer"
-	coreTypes "github.com/tangerine-network/tangerine-consensus/core/types"
+	dexCore "github.com/portto/tangerine-consensus/core"
+	coreEcdsa "github.com/portto/tangerine-consensus/core/crypto/ecdsa"
+	"github.com/portto/tangerine-consensus/core/syncer"
+	coreTypes "github.com/portto/tangerine-consensus/core/types"
 
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/dex/db"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/dex/db"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 var (

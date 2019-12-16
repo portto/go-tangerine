@@ -22,10 +22,10 @@ import (
 	"sort"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/params"
 )
 
 // Vote represents a single vote that an authorized signer made to modify the

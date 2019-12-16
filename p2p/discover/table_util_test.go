@@ -24,8 +24,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/enr"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/enr"
 )
 
 var nullNode *enode.Node

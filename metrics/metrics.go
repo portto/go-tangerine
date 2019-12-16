@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

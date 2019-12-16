@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common"
+	"github.com/portto/go-tangerine/common"
 )
 
 func TestPack(t *testing.T) {

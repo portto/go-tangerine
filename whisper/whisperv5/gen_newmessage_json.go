@@ -5,7 +5,7 @@ package whisperv5
 import (
 	"encoding/json"
 
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/common/hexutil"
 )
 
 var _ = (*newMessageOverride)(nil)

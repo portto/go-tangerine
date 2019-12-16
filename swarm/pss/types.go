@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/rlp"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
-	whisper "github.com/tangerine-network/go-tangerine/whisper/whisperv6"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/swarm/storage"
+	whisper "github.com/portto/go-tangerine/whisper/whisperv6"
 )
 
 const (

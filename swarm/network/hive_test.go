@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	p2ptest "github.com/tangerine-network/go-tangerine/p2p/testing"
-	"github.com/tangerine-network/go-tangerine/swarm/state"
+	p2ptest "github.com/portto/go-tangerine/p2p/testing"
+	"github.com/portto/go-tangerine/swarm/state"
 )
 
 func newHiveTester(t *testing.T, params *HiveParams, n int, store state.Store) (*bzzTester, *Hive) {

@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

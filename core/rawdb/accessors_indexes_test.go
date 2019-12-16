@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/ethdb"
 )
 
 // Tests that positional lookup metadata can be stored and retrieved.

@@ -8,9 +8,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 const genesisFile = "genesis.json"

@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/tangerine-network/go-tangerine/internal/cmdtest"
+	"github.com/portto/go-tangerine/internal/cmdtest"
 )
 
 type testEthkey struct {

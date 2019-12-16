@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
-	ethereum "github.com/tangerine-network/go-tangerine"
-	"github.com/tangerine-network/go-tangerine/accounts/abi"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/event"
+	ethereum "github.com/portto/go-tangerine"
+	"github.com/portto/go-tangerine/accounts/abi"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

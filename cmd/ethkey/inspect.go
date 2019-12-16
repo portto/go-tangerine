@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/tangerine-network/go-tangerine/accounts/keystore"
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/accounts/keystore"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

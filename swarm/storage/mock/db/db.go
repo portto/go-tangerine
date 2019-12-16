@@ -27,8 +27,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/mock"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/swarm/storage/mock"
 )
 
 // GlobalStore contains the LevelDB database that is storing

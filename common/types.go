@@ -26,7 +26,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

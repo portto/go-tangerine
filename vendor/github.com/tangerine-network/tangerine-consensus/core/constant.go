@@ -17,7 +17,7 @@
 
 package core
 
-import "github.com/tangerine-network/tangerine-consensus/core/utils"
+import "github.com/portto/tangerine-consensus/core/utils"
 
 // ConfigRoundShift refers to the difference between block's round and config
 // round derived from its state.

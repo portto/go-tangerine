@@ -28,11 +28,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/portto/go-tangerine/common"
+	ch "github.com/portto/go-tangerine/swarm/chunk"
+	"github.com/portto/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/storage/mock/mem"
 	ldberrors "github.com/syndtr/goleveldb/leveldb/errors"
-	"github.com/tangerine-network/go-tangerine/common"
-	ch "github.com/tangerine-network/go-tangerine/swarm/chunk"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/mock/mem"
 )
 
 type testDbStore struct {

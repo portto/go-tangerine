@@ -24,11 +24,11 @@ import (
 	"time"
 
 	"github.com/allegro/bigcache"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 var (

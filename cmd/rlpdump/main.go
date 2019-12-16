@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 var (

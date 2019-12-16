@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/rpc"
 )
 
 var (

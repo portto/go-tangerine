@@ -20,8 +20,8 @@ package vm
 import (
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/accounts/abi"
-	"github.com/tangerine-network/go-tangerine/common"
+	"github.com/portto/go-tangerine/accounts/abi"
+	"github.com/portto/go-tangerine/common"
 )
 
 // Tangerine Network Governance

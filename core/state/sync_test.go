@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/trie"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/trie"
 )
 
 // testAccount is the data associated with an account used by the state tests.

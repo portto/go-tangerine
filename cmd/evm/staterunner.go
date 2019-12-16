@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/tangerine-network/go-tangerine/core/state"
-	"github.com/tangerine-network/go-tangerine/core/vm"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/tests"
+	"github.com/portto/go-tangerine/core/state"
+	"github.com/portto/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/tests"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

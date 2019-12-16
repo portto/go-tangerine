@@ -23,16 +23,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/contracts/ens"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	"github.com/tangerine-network/go-tangerine/swarm/network"
-	"github.com/tangerine-network/go-tangerine/swarm/pss"
-	"github.com/tangerine-network/go-tangerine/swarm/services/swap"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/contracts/ens"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/network"
+	"github.com/portto/go-tangerine/swarm/pss"
+	"github.com/portto/go-tangerine/swarm/services/swap"
+	"github.com/portto/go-tangerine/swarm/storage"
 )
 
 const (

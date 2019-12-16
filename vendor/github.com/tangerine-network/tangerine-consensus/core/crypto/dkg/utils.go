@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/tangerine-network/bls/ffi/go/bls"
+	"github.com/portto/bls/ffi/go/bls"
 
-	"github.com/tangerine-network/tangerine-consensus/core/crypto"
+	"github.com/portto/tangerine-consensus/core/crypto"
 )
 
 // PartialSignature is a partial signature in DKG+TSIG protocol.

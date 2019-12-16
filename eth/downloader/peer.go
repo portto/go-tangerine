@@ -29,9 +29,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/event"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/event"
+	"github.com/portto/go-tangerine/log"
 )
 
 const (

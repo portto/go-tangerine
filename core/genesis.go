@@ -26,17 +26,17 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/core/rawdb"
-	"github.com/tangerine-network/go-tangerine/core/state"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/core/vm"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/params"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/core/rawdb"
+	"github.com/portto/go-tangerine/core/state"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/params"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

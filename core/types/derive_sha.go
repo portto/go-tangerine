@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/rlp"
-	"github.com/tangerine-network/go-tangerine/trie"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/trie"
 )
 
 type DerivableList interface {

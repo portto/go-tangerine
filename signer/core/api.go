@@ -25,15 +25,15 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/tangerine-network/go-tangerine/accounts"
-	"github.com/tangerine-network/go-tangerine/accounts/keystore"
-	"github.com/tangerine-network/go-tangerine/accounts/usbwallet"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/internal/ethapi"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/accounts"
+	"github.com/portto/go-tangerine/accounts/keystore"
+	"github.com/portto/go-tangerine/accounts/usbwallet"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/internal/ethapi"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 // numberOfAccountsToDerive For hardware wallets, the number of accounts to derive
@@ -518,7 +518,7 @@ func (api *SignerAPI) SignTransaction(ctx context.Context, args SendTxArgs, meth
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/tangerine-network/go-tangerine/wiki/Management-APIs#personal_sign
+// https://github.com/portto/go-tangerine/wiki/Management-APIs#personal_sign
 func (api *SignerAPI) Sign(ctx context.Context, addr common.MixedcaseAddress, data hexutil.Bytes) (hexutil.Bytes, error) {
 	sighash, msg := SignHash(data)
 	// We make the request prior to looking up if we actually have the account, to prevent

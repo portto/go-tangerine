@@ -28,11 +28,11 @@
 //  	"context"
 //  	"fmt"
 //  	"os"
-//  	pss "github.com/tangerine-network/go-tangerine/swarm/pss/client"
-//  	"github.com/tangerine-network/go-tangerine/p2p/protocols"
-//  	"github.com/tangerine-network/go-tangerine/p2p"
-//  	"github.com/tangerine-network/go-tangerine/swarm/pot"
-//  	"github.com/tangerine-network/go-tangerine/swarm/log"
+//  	pss "github.com/portto/go-tangerine/swarm/pss/client"
+//  	"github.com/portto/go-tangerine/p2p/protocols"
+//  	"github.com/portto/go-tangerine/p2p"
+//  	"github.com/portto/go-tangerine/swarm/pot"
+//  	"github.com/portto/go-tangerine/swarm/log"
 //  )
 //
 //  type FooMsg struct {

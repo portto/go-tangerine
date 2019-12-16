@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

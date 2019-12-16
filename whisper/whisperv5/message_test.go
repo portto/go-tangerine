@@ -21,8 +21,8 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

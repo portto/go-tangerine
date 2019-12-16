@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/params"
 )
 
 const (

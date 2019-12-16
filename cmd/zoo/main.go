@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/tangerine-network/go-tangerine/cmd/zoo/monkey"
-	"github.com/tangerine-network/go-tangerine/cmd/zoo/utils"
+	"github.com/portto/go-tangerine/cmd/zoo/monkey"
+	"github.com/portto/go-tangerine/cmd/zoo/utils"
 )
 
 var key = flag.String("key", "", "private key path")

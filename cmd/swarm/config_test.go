@@ -27,10 +27,10 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/rpc"
-	"github.com/tangerine-network/go-tangerine/swarm"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/swarm"
+	"github.com/portto/go-tangerine/swarm/api"
 )
 
 func TestConfigDump(t *testing.T) {

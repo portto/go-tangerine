@@ -19,9 +19,9 @@ package protocols
 import (
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/adapters"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/simulations/adapters"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 //dummy Balance implementation

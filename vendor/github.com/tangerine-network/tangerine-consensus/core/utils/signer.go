@@ -20,10 +20,10 @@ package utils
 import (
 	"errors"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core/crypto"
-	"github.com/tangerine-network/tangerine-consensus/core/types"
-	typesDKG "github.com/tangerine-network/tangerine-consensus/core/types/dkg"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core/crypto"
+	"github.com/portto/tangerine-consensus/core/types"
+	typesDKG "github.com/portto/tangerine-consensus/core/types/dkg"
 )
 
 // Errors for signer.

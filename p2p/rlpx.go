@@ -37,10 +37,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 	"github.com/golang/snappy"
-	"github.com/tangerine-network/go-tangerine/common/bitutil"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/crypto/ecies"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common/bitutil"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/crypto/ecies"
+	"github.com/portto/go-tangerine/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

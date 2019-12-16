@@ -30,10 +30,10 @@ import (
 
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
+	"github.com/portto/go-tangerine/internal/jsre"
+	"github.com/portto/go-tangerine/internal/web3ext"
+	"github.com/portto/go-tangerine/rpc"
 	"github.com/robertkrimen/otto"
-	"github.com/tangerine-network/go-tangerine/internal/jsre"
-	"github.com/tangerine-network/go-tangerine/internal/web3ext"
-	"github.com/tangerine-network/go-tangerine/rpc"
 )
 
 var (

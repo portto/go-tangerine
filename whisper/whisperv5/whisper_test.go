@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
+	"github.com/portto/go-tangerine/common"
 )
 
 func TestWhisperBasic(t *testing.T) {

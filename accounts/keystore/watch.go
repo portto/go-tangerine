@@ -21,8 +21,8 @@ package keystore
 import (
 	"time"
 
+	"github.com/portto/go-tangerine/log"
 	"github.com/rjeczalik/notify"
-	"github.com/tangerine-network/go-tangerine/log"
 )
 
 type watcher struct {

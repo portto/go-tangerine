@@ -38,11 +38,11 @@ import (
 	"time"
 
 	"github.com/pborman/uuid"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	"github.com/tangerine-network/go-tangerine/swarm/spancontext"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/swarm/api"
+	"github.com/portto/go-tangerine/swarm/spancontext"
+	"github.com/portto/go-tangerine/swarm/storage/feed"
 )
 
 var (

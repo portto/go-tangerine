@@ -19,9 +19,9 @@ package rpc
 import (
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/rpc"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/mock/mem"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/mock/test"
+	"github.com/portto/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/swarm/storage/mock/mem"
+	"github.com/portto/go-tangerine/swarm/storage/mock/test"
 )
 
 // TestDBStore is running test for a GlobalStore

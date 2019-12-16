@@ -1,8 +1,8 @@
 package log
 
 import (
-	l "github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
+	l "github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
 )
 
 const (

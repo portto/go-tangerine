@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/consensus/ethash"
-	"github.com/tangerine-network/go-tangerine/core/vm"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/consensus/ethash"
+	"github.com/portto/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

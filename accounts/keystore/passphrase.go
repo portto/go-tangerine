@@ -39,9 +39,9 @@ import (
 	"path/filepath"
 
 	"github.com/pborman/uuid"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/crypto"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
 )
@@ -120,7 +120,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://github.com/tangerine-network/go-tangerine/issues." +
+				"https://github.com/portto/go-tangerine/issues." +
 				"The error was : %s"
 			return fmt.Errorf(msg, tmpName, err)
 		}

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core/types"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core/types"
 )
 
 type blockConfirmedEvent struct {

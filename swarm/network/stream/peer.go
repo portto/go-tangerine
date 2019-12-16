@@ -24,14 +24,14 @@ import (
 	"time"
 
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/p2p/protocols"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
-	pq "github.com/tangerine-network/go-tangerine/swarm/network/priorityqueue"
-	"github.com/tangerine-network/go-tangerine/swarm/network/stream/intervals"
-	"github.com/tangerine-network/go-tangerine/swarm/spancontext"
-	"github.com/tangerine-network/go-tangerine/swarm/state"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/p2p/protocols"
+	"github.com/portto/go-tangerine/swarm/log"
+	pq "github.com/portto/go-tangerine/swarm/network/priorityqueue"
+	"github.com/portto/go-tangerine/swarm/network/stream/intervals"
+	"github.com/portto/go-tangerine/swarm/spancontext"
+	"github.com/portto/go-tangerine/swarm/state"
+	"github.com/portto/go-tangerine/swarm/storage"
 )
 
 type notFoundError struct {

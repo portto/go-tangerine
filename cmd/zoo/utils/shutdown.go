@@ -27,9 +27,9 @@ import (
 	"math/big"
 	"os"
 
-	ethereum "github.com/tangerine-network/go-tangerine"
-	"github.com/tangerine-network/go-tangerine/cmd/zoo/client"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	ethereum "github.com/portto/go-tangerine"
+	"github.com/portto/go-tangerine/cmd/zoo/client"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 type ShutdownConfig struct {

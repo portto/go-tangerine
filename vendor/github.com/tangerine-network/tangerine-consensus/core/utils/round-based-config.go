@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/tangerine-network/tangerine-consensus/core/types"
+	"github.com/portto/tangerine-consensus/core/types"
 )
 
 // RoundBasedConfig is based config for rounds and provide boundary checking

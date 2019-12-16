@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/accounts/abi"
-	"github.com/tangerine-network/go-tangerine/cmd/zoo/client"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/accounts/abi"
+	"github.com/portto/go-tangerine/cmd/zoo/client"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 var tokenABI abi.ABI

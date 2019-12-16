@@ -19,10 +19,10 @@ package rawdb
 import (
 	"encoding/json"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/params"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/params"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

@@ -3,10 +3,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/enr"
-	"github.com/tangerine-network/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/enr"
+	"github.com/portto/go-tangerine/rpc"
 )
 
 // NoopService is the service that does not do anything

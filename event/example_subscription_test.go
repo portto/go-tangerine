@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/event"
+	"github.com/portto/go-tangerine/event"
 )
 
 func ExampleNewSubscription() {

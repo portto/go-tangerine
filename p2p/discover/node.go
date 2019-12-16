@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/p2p/enode"
 )
 
 // node represents a host on the network.

@@ -18,7 +18,7 @@
 package utils
 
 import (
-	"github.com/tangerine-network/tangerine-consensus/core/types"
+	"github.com/portto/tangerine-consensus/core/types"
 )
 
 // VoteFilter filters votes that are useless for now.

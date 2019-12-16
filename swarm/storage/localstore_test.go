@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	ch "github.com/tangerine-network/go-tangerine/swarm/chunk"
+	ch "github.com/portto/go-tangerine/swarm/chunk"
 )
 
 var (

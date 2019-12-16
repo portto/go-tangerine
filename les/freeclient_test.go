@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common/mclock"
-	"github.com/tangerine-network/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/common/mclock"
+	"github.com/portto/go-tangerine/ethdb"
 )
 
 func TestFreeClientPoolL10C100(t *testing.T) {

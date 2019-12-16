@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/swarm/pot"
+	"github.com/portto/go-tangerine/swarm/pot"
 )
 
 // discovery bzz extension for requesting and relaying node address records

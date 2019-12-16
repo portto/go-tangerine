@@ -30,11 +30,11 @@ import (
 	"sync"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/tangerine-network/go-tangerine/event"
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/adapters"
-	"github.com/tangerine-network/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/event"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/simulations/adapters"
+	"github.com/portto/go-tangerine/rpc"
 	"golang.org/x/net/websocket"
 )
 

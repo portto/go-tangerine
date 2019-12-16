@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 // Node represents a host on the network.

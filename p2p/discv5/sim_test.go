@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
+	"github.com/portto/go-tangerine/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

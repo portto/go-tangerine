@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/core/vm"
 )
 
 func TestState(t *testing.T) {

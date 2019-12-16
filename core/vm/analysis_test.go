@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

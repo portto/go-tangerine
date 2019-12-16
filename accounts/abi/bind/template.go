@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/tangerine-network/go-tangerine/accounts/abi"
+import "github.com/portto/go-tangerine/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -68,12 +68,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/tangerine-network/go-tangerine"
-	"github.com/tangerine-network/go-tangerine/accounts/abi"
-	"github.com/tangerine-network/go-tangerine/accounts/abi/bind"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/event"
+	ethereum "github.com/portto/go-tangerine"
+	"github.com/portto/go-tangerine/accounts/abi"
+	"github.com/portto/go-tangerine/accounts/abi/bind"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

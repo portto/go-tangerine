@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/rawdb"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/rawdb"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

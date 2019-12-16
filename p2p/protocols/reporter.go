@@ -20,8 +20,8 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
 
 	"github.com/syndtr/goleveldb/leveldb"
 )

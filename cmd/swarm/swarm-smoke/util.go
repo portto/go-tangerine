@@ -34,11 +34,11 @@ import (
 
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/pborman/uuid"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/metrics"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	"github.com/tangerine-network/go-tangerine/swarm/api/client"
-	"github.com/tangerine-network/go-tangerine/swarm/spancontext"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/swarm/api"
+	"github.com/portto/go-tangerine/swarm/api/client"
+	"github.com/portto/go-tangerine/swarm/spancontext"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

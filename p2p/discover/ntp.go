@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 const (

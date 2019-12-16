@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations"
-	"github.com/tangerine-network/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/simulations"
+	"github.com/portto/go-tangerine/swarm/log"
 )
 
 var (

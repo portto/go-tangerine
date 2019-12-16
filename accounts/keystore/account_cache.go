@@ -28,9 +28,9 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/tangerine-network/go-tangerine/accounts"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/accounts"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

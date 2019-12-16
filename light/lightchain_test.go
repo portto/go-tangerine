@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/consensus/ethash"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/core/rawdb"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/consensus/ethash"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/core/rawdb"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/params"
 )
 
 // So we can deterministically seed different blockchains

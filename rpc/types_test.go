@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

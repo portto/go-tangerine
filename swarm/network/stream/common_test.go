@@ -31,16 +31,16 @@ import (
 	"time"
 
 	colorable "github.com/mattn/go-colorable"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/adapters"
-	p2ptest "github.com/tangerine-network/go-tangerine/p2p/testing"
-	"github.com/tangerine-network/go-tangerine/swarm/network"
-	"github.com/tangerine-network/go-tangerine/swarm/network/simulation"
-	"github.com/tangerine-network/go-tangerine/swarm/state"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
-	mockmem "github.com/tangerine-network/go-tangerine/swarm/storage/mock/mem"
-	"github.com/tangerine-network/go-tangerine/swarm/testutil"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/simulations/adapters"
+	p2ptest "github.com/portto/go-tangerine/p2p/testing"
+	"github.com/portto/go-tangerine/swarm/network"
+	"github.com/portto/go-tangerine/swarm/network/simulation"
+	"github.com/portto/go-tangerine/swarm/state"
+	"github.com/portto/go-tangerine/swarm/storage"
+	mockmem "github.com/portto/go-tangerine/swarm/storage/mock/mem"
+	"github.com/portto/go-tangerine/swarm/testutil"
 )
 
 var (

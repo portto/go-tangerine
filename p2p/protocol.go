@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/enr"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

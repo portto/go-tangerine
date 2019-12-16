@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/karalabe/hid"
-	"github.com/tangerine-network/go-tangerine/accounts"
-	"github.com/tangerine-network/go-tangerine/event"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/accounts"
+	"github.com/portto/go-tangerine/event"
+	"github.com/portto/go-tangerine/log"
 )
 
 // LedgerScheme is the protocol scheme prefixing account and wallet URLs.

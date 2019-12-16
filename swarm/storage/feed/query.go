@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed/lookup"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/swarm/storage/feed/lookup"
 )
 
 // Query is used to specify constraints when performing an update lookup

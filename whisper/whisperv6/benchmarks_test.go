@@ -20,7 +20,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

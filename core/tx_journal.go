@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

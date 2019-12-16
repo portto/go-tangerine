@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/tangerine-network/go-tangerine"
-	"github.com/tangerine-network/go-tangerine/event"
-	"github.com/tangerine-network/go-tangerine/rpc"
+	ethereum "github.com/portto/go-tangerine"
+	"github.com/portto/go-tangerine/event"
+	"github.com/portto/go-tangerine/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/rlp"
 
-	"github.com/tangerine-network/go-tangerine/p2p"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/adapters"
-	p2ptest "github.com/tangerine-network/go-tangerine/p2p/testing"
+	"github.com/portto/go-tangerine/p2p"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/simulations/adapters"
+	p2ptest "github.com/portto/go-tangerine/p2p/testing"
 )
 
 // handshake message type

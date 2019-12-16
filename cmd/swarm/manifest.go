@@ -22,9 +22,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	swarm "github.com/tangerine-network/go-tangerine/swarm/api/client"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/swarm/api"
+	swarm "github.com/portto/go-tangerine/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

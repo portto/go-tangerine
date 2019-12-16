@@ -21,9 +21,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/swarm/storage/encryption"
+	"github.com/portto/go-tangerine/swarm/storage/encryption"
 
-	"github.com/tangerine-network/go-tangerine/common"
+	"github.com/portto/go-tangerine/common"
 )
 
 func TestHasherStore(t *testing.T) {

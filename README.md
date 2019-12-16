@@ -2,12 +2,12 @@
 
 Official golang implementation of the Tangerine Newtork fullnode.
 
-Tangerine implementation is based-on the [go-ethereum](https://github.com/ethereum/go-ethereum) project. The consensus layer is replaced with the [Tangerine consensus](https://github.com/tangerine-network/tangerine-consensus) implementation.
+Tangerine implementation is based-on the [go-ethereum](https://github.com/ethereum/go-ethereum) project. The consensus layer is replaced with the [Tangerine consensus](https://github.com/portto/tangerine-consensus) implementation.
 
 [![API Reference](
 https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-)](https://godoc.org/github.com/tangerine-network/go-tangerine)
-[![Go Report Card](https://goreportcard.com/badge/github.com/tangerine-network/go-tangerine)](https://goreportcard.com/report/github.com/tangerine-network/go-tangerine)
+)](https://godoc.org/github.com/portto/go-tangerine)
+[![Go Report Card](https://goreportcard.com/badge/github.com/portto/go-tangerine)](https://goreportcard.com/report/github.com/portto/go-tangerine)
 
 <!--
 Automated builds are available for stable releases and the unstable master branch.
@@ -36,7 +36,7 @@ The go-tangerine project comes with several wrappers/executables found in the `c
 
 | Command    | Description |
 |:----------:|-------------|
-| **`gtan`** | Our main Ethereum CLI client. It is the entry point into the Ethereum network (main-, test- or private net), capable of running as a full node (default), archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the Ethereum network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `gtan --help`<!-- and the [CLI Wiki page](https://github.com/tangerine-network/go-tangerine/wiki/Command-Line-Options) for command line options -->. |
+| **`gtan`** | Our main Ethereum CLI client. It is the entry point into the Ethereum network (main-, test- or private net), capable of running as a full node (default), archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the Ethereum network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `gtan --help`<!-- and the [CLI Wiki page](https://github.com/portto/go-tangerine/wiki/Command-Line-Options) for command line options -->. |
 | `nodekey` | Utility to generate key pair for operating a node. |
 | `abigen` | Source code generator to convert Ethereum contract definitions into easy to use, compile-time type-safe Go packages. It operates on plain [Contract ABIs](https://solidity.readthedocs.io/en/develop/abi-spec.html) with expanded functionality if the contract bytecode is also available. However it also accepts Solidity source files, making development much more streamlined. Please see our [Native DApps](https://tangerine-network.github.io/wiki/#/Dapp-Development-Guide) wiki page for details. |
 | `bootnode` | Stripped down version of our Ethereum client implementation that only takes part in the network node discovery protocol, but does not run any of the higher level application protocols. It can be used as a lightweight bootstrap node to aid in finding peers in private networks. |
@@ -46,7 +46,7 @@ The go-tangerine project comes with several wrappers/executables found in the `c
 ## Running gtan
 
 Going through all the possible command line flags is out of scope here <!-- (please consult our
-[CLI Wiki page](https://github.com/tangerine-network/go-tangerine/wiki/Command-Line-Options)) -->, but we've
+[CLI Wiki page](https://github.com/portto/go-tangerine/wiki/Command-Line-Options)) -->, but we've
 enumerated a few common parameter combos to get you up to speed quickly on how you can run your
 own Gtan instance.
 
@@ -272,7 +272,7 @@ Please make sure your contributions adhere to our coding guidelines:
  * Commit messages should be prefixed with the package(s) they modify.
    * E.g. "eth, rpc: make trace configs optional"
 
-Please see the [Developers' Guide](https://github.com/tangerine-network/go-tangerine/wiki/Developers'-Guide)
+Please see the [Developers' Guide](https://github.com/portto/go-tangerine/wiki/Developers'-Guide)
 for more details on configuring your environment, managing project dependencies and testing procedures.
 
 ## License

@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"github.com/mattn/go-colorable"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
 )
 
 func TestEncryption(t *testing.T) {

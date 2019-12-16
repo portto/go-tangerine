@@ -32,10 +32,10 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/crypto/ecies"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/pipes"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/crypto/ecies"
+	"github.com/portto/go-tangerine/p2p/simulations/pipes"
+	"github.com/portto/go-tangerine/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

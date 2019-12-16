@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/tangerine-network/go-tangerine/swarm/chunk"
+	"github.com/portto/go-tangerine/swarm/chunk"
 )
 
 // ProtocolVersion defines the current version of the protocol that will be included in each update message

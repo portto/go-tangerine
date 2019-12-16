@@ -18,7 +18,7 @@
 package dkg
 
 import (
-	"github.com/tangerine-network/bls/ffi/go/bls"
+	"github.com/portto/bls/ffi/go/bls"
 )
 
 const (

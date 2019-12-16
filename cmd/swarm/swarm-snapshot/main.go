@@ -19,8 +19,8 @@ package main
 import (
 	"os"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/log"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

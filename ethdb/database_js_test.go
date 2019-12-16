@@ -19,7 +19,7 @@
 package ethdb_test
 
 import (
-	"github.com/tangerine-network/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/ethdb"
 )
 
 var _ ethdb.Database = &ethdb.LDBDatabase{}

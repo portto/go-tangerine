@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/adapters"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/simulations/adapters"
 )
 
 //a map of mocker names to its function

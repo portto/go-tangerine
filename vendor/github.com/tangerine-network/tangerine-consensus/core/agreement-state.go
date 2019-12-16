@@ -20,7 +20,7 @@ package core
 import (
 	"fmt"
 
-	"github.com/tangerine-network/tangerine-consensus/core/types"
+	"github.com/portto/tangerine-consensus/core/types"
 )
 
 // Errors for agreement state module.

@@ -28,12 +28,12 @@ import (
 	"math/big"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/tangerine-network/go-tangerine/accounts"
-	"github.com/tangerine-network/go-tangerine/accounts/usbwallet/internal/trezor"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/accounts"
+	"github.com/portto/go-tangerine/accounts/usbwallet/internal/trezor"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/log"
 )
 
 // ErrTrezorPINNeeded is returned if opening the trezor requires a PIN code. In

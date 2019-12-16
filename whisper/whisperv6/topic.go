@@ -19,8 +19,8 @@
 package whisperv6
 
 import (
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/hexutil"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/hexutil"
 )
 
 // TopicType represents a cryptographically secure, probabilistic partial

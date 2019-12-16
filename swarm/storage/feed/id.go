@@ -21,10 +21,10 @@ import (
 	"hash"
 	"strconv"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed/lookup"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/swarm/storage/feed/lookup"
 
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/swarm/storage"
 )
 
 // ID uniquely identifies an update on the network.

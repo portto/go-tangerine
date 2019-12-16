@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/ethclient"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

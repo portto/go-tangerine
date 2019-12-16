@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	ethereum "github.com/tangerine-network/go-tangerine"
-	"github.com/tangerine-network/go-tangerine/common"
+	ethereum "github.com/portto/go-tangerine"
+	"github.com/portto/go-tangerine/common"
 )
 
 // Subscription represents an event subscription where events are

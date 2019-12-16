@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/log"
 )
 
 //TestReporter tests that the metrics being collected for p2p accounting

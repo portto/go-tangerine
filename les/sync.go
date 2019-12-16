@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/core/rawdb"
-	"github.com/tangerine-network/go-tangerine/eth/downloader"
-	"github.com/tangerine-network/go-tangerine/light"
+	"github.com/portto/go-tangerine/core/rawdb"
+	"github.com/portto/go-tangerine/eth/downloader"
+	"github.com/portto/go-tangerine/light"
 )
 
 // syncer is responsible for periodically synchronising with the network, both

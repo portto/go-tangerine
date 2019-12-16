@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/internal/ethapi"
-	"github.com/tangerine-network/go-tangerine/params"
-	"github.com/tangerine-network/go-tangerine/rpc"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/internal/ethapi"
+	"github.com/portto/go-tangerine/params"
+	"github.com/portto/go-tangerine/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.GWei)

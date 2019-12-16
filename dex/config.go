@@ -25,12 +25,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/dex/downloader"
-	"github.com/tangerine-network/go-tangerine/eth/gasprice"
-	"github.com/tangerine-network/go-tangerine/indexer"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/dex/downloader"
+	"github.com/portto/go-tangerine/eth/gasprice"
+	"github.com/portto/go-tangerine/indexer"
+	"github.com/portto/go-tangerine/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

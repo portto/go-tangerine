@@ -3,9 +3,9 @@ package rawdb
 import (
 	"bytes"
 
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/rlp"
-	coreDKG "github.com/tangerine-network/tangerine-consensus/core/crypto/dkg"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/rlp"
+	coreDKG "github.com/portto/tangerine-consensus/core/crypto/dkg"
 )
 
 type dkgPrivateKey struct {

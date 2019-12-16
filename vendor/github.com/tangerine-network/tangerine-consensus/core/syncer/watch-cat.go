@@ -21,10 +21,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core"
-	"github.com/tangerine-network/tangerine-consensus/core/types"
-	"github.com/tangerine-network/tangerine-consensus/core/utils"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core"
+	"github.com/portto/tangerine-consensus/core/types"
+	"github.com/portto/tangerine-consensus/core/utils"
 )
 
 type configReader interface {

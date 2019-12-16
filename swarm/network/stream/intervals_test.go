@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/node"
-	"github.com/tangerine-network/go-tangerine/p2p/enode"
-	"github.com/tangerine-network/go-tangerine/p2p/simulations/adapters"
-	"github.com/tangerine-network/go-tangerine/swarm/network/simulation"
-	"github.com/tangerine-network/go-tangerine/swarm/state"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
-	"github.com/tangerine-network/go-tangerine/swarm/testutil"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/node"
+	"github.com/portto/go-tangerine/p2p/enode"
+	"github.com/portto/go-tangerine/p2p/simulations/adapters"
+	"github.com/portto/go-tangerine/swarm/network/simulation"
+	"github.com/portto/go-tangerine/swarm/state"
+	"github.com/portto/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/swarm/testutil"
 )
 
 func TestIntervalsLive(t *testing.T) {

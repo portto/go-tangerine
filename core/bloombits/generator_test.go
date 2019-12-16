@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

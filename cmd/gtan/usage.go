@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/internal/debug"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/internal/debug"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

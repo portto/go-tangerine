@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/swarm/log"
+	"github.com/portto/go-tangerine/swarm/log"
 )
 
 // SwAP Swarm Accounting Protocol with

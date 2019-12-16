@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/portto/go-tangerine/common"
 	"github.com/stretchr/testify/require"
-	"github.com/tangerine-network/go-tangerine/common"
 )
 
 type unpackTest struct {

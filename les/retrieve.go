@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common/mclock"
-	"github.com/tangerine-network/go-tangerine/light"
+	"github.com/portto/go-tangerine/common/mclock"
+	"github.com/portto/go-tangerine/light"
 )
 
 var (

@@ -25,20 +25,20 @@ import (
 	"testing"
 	"time"
 
-	coreTypes "github.com/tangerine-network/tangerine-consensus/core/types"
+	coreTypes "github.com/portto/tangerine-consensus/core/types"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/consensus"
-	"github.com/tangerine-network/go-tangerine/consensus/dexcon"
-	"github.com/tangerine-network/go-tangerine/consensus/ethash"
-	"github.com/tangerine-network/go-tangerine/core/rawdb"
-	"github.com/tangerine-network/go-tangerine/core/state"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/core/vm"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/ethdb"
-	"github.com/tangerine-network/go-tangerine/params"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/consensus"
+	"github.com/portto/go-tangerine/consensus/dexcon"
+	"github.com/portto/go-tangerine/consensus/ethash"
+	"github.com/portto/go-tangerine/core/rawdb"
+	"github.com/portto/go-tangerine/core/state"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/ethdb"
+	"github.com/portto/go-tangerine/params"
+	"github.com/portto/go-tangerine/rlp"
 )
 
 // So we can deterministically seed different blockchains
@@ -1449,7 +1449,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/tangerine-network/go-tangerine/pull/15941
+// https://github.com/portto/go-tangerine/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()
@@ -1916,8 +1916,8 @@ func BenchmarkBlockChain_1x1000Executions(b *testing.B) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//  - https://github.com/tangerine-network/go-tangerine/issues/18977
-//  - https://github.com/tangerine-network/go-tangerine/pull/18988
+//  - https://github.com/portto/go-tangerine/issues/18977
+//  - https://github.com/portto/go-tangerine/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()

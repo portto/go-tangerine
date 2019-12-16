@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/consensus/ethash"
-	"github.com/tangerine-network/go-tangerine/dex"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/consensus/ethash"
+	"github.com/portto/go-tangerine/dex"
+	"github.com/portto/go-tangerine/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

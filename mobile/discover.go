@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/tangerine-network/go-tangerine/p2p/discv5"
+	"github.com/portto/go-tangerine/p2p/discv5"
 )
 
 // Enode represents a host on the network.

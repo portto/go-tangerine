@@ -25,14 +25,14 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed/lookup"
+	"github.com/portto/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/swarm/storage/feed/lookup"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/swarm/api"
-	swarmhttp "github.com/tangerine-network/go-tangerine/swarm/api/http"
-	"github.com/tangerine-network/go-tangerine/swarm/storage/feed"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/swarm/api"
+	swarmhttp "github.com/portto/go-tangerine/swarm/api/http"
+	"github.com/portto/go-tangerine/swarm/storage/feed"
 )
 
 func serverFunc(api *api.API) swarmhttp.TestServer {

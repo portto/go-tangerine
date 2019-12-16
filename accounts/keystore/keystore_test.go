@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/accounts"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/event"
+	"github.com/portto/go-tangerine/accounts"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/event"
 )
 
 var testSigData = make([]byte, 32)

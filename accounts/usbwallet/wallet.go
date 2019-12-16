@@ -26,11 +26,11 @@ import (
 	"time"
 
 	"github.com/karalabe/hid"
-	ethereum "github.com/tangerine-network/go-tangerine"
-	"github.com/tangerine-network/go-tangerine/accounts"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/log"
+	ethereum "github.com/portto/go-tangerine"
+	"github.com/portto/go-tangerine/accounts"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/log"
 )
 
 // Maximum time between wallet health checks to detect USB unplugs.

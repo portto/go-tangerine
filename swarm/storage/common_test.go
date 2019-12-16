@@ -29,8 +29,8 @@ import (
 	"time"
 
 	"github.com/mattn/go-colorable"
-	"github.com/tangerine-network/go-tangerine/log"
-	ch "github.com/tangerine-network/go-tangerine/swarm/chunk"
+	"github.com/portto/go-tangerine/log"
+	ch "github.com/portto/go-tangerine/swarm/chunk"
 )
 
 var (

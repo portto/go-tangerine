@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

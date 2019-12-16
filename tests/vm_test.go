@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/core/vm"
+	"github.com/portto/go-tangerine/core/vm"
 )
 
 func TestVM(t *testing.T) {

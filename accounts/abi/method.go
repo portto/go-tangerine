@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 // Method represents a callable given a `Name` and whether the method is a constant.

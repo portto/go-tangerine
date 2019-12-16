@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

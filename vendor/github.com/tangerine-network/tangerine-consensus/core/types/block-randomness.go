@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/common"
 )
 
 // AgreementResult describes an agremeent result.

@@ -24,11 +24,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/tangerine-network/bls/ffi/go/bls"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/bls/ffi/go/bls"
+	"github.com/portto/go-tangerine/rlp"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
-	"github.com/tangerine-network/tangerine-consensus/core/crypto"
+	"github.com/portto/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/core/crypto"
 )
 
 var (

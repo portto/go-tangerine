@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tangerine-network/tangerine-consensus/core/utils"
+	"github.com/portto/tangerine-consensus/core/utils"
 )
 
 // TickerType is the type of ticker.

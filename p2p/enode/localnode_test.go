@@ -19,8 +19,8 @@ package enode
 import (
 	"testing"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/p2p/enr"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/p2p/enr"
 )
 
 func newLocalNodeForTesting() (*LocalNode, *DB) {

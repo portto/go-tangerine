@@ -30,12 +30,12 @@ import (
 	cli "gopkg.in/urfave/cli.v1"
 
 	"github.com/naoina/toml"
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/log"
-	"github.com/tangerine-network/go-tangerine/node"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/log"
+	"github.com/portto/go-tangerine/node"
 
-	bzzapi "github.com/tangerine-network/go-tangerine/swarm/api"
+	bzzapi "github.com/portto/go-tangerine/swarm/api"
 )
 
 var (
@@ -97,7 +97,7 @@ var tomlSettings = toml.Config{
 	MissingField: func(rt reflect.Type, field string) error {
 		link := ""
 		if unicode.IsUpper(rune(rt.Name()[0])) && rt.PkgPath() != "main" {
-			link = fmt.Sprintf(", check github.com/tangerine-network/go-tangerine/swarm/api/config.go for available fields")
+			link = fmt.Sprintf(", check github.com/portto/go-tangerine/swarm/api/config.go for available fields")
 		}
 		return fmt.Errorf("field '%s' is not defined in %s%s", field, rt.String(), link)
 	},

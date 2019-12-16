@@ -19,10 +19,10 @@ package core
 import (
 	"time"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/mclock"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/log"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/mclock"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/log"
 )
 
 // insertStats tracks and reports on block insertion.

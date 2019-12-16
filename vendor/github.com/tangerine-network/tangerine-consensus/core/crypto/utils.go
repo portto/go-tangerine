@@ -21,9 +21,9 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/crypto"
 
-	"github.com/tangerine-network/tangerine-consensus/common"
+	"github.com/portto/tangerine-consensus/common"
 )
 
 var (

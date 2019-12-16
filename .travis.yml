@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/tangerine-network/go-tangerine
+go_import_path: github.com/portto/go-tangerine
 sudo: false
 branches:
   only:

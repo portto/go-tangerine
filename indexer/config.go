@@ -3,8 +3,8 @@ package indexer
 import (
 	"plugin"
 
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/dex/downloader"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/dex/downloader"
 )
 
 // Config is data sources related configs struct.

@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/types"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/types"
+	"github.com/portto/go-tangerine/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

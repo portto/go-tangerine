@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/core/vm/runtime"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/core/vm/runtime"
 )
 
 func ExampleExecute() {

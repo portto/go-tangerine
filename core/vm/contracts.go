@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/crypto/bn256"
-	"github.com/tangerine-network/go-tangerine/params"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/crypto/bn256"
+	"github.com/portto/go-tangerine/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

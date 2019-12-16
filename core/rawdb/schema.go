@@ -20,8 +20,8 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/tangerine-network/go-tangerine/common"
-	"github.com/tangerine-network/go-tangerine/metrics"
+	"github.com/portto/go-tangerine/common"
+	"github.com/portto/go-tangerine/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

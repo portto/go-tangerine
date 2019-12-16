@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/tangerine-network/go-tangerine/common/math"
-	"github.com/tangerine-network/go-tangerine/crypto"
-	"github.com/tangerine-network/go-tangerine/p2p/enr"
-	"github.com/tangerine-network/go-tangerine/rlp"
+	"github.com/portto/go-tangerine/common/math"
+	"github.com/portto/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/p2p/enr"
+	"github.com/portto/go-tangerine/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

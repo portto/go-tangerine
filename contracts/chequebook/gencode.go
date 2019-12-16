@@ -25,11 +25,11 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/tangerine-network/go-tangerine/accounts/abi/bind"
-	"github.com/tangerine-network/go-tangerine/accounts/abi/bind/backends"
-	"github.com/tangerine-network/go-tangerine/contracts/chequebook/contract"
-	"github.com/tangerine-network/go-tangerine/core"
-	"github.com/tangerine-network/go-tangerine/crypto"
+	"github.com/portto/go-tangerine/accounts/abi/bind"
+	"github.com/portto/go-tangerine/accounts/abi/bind/backends"
+	"github.com/portto/go-tangerine/contracts/chequebook/contract"
+	"github.com/portto/go-tangerine/core"
+	"github.com/portto/go-tangerine/crypto"
 )
 
 var (

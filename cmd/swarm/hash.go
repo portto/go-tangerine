@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tangerine-network/go-tangerine/cmd/utils"
-	"github.com/tangerine-network/go-tangerine/swarm/storage"
+	"github.com/portto/go-tangerine/cmd/utils"
+	"github.com/portto/go-tangerine/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 
